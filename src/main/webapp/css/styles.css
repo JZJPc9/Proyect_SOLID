@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos de la página de inicio */
+.spirit-selection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spirit {
+    margin: 10px;
+    text-align: center;
+}
+
+.spirit img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Estilos de la página de detalles del espíritu */
+.spirit-details {
+    text-align: center;
+}
+
+.spirit-info {
+    margin-bottom: 20px;
+}
+
+.attributes {
+    margin-bottom: 20px;
+}
+
+.attributes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.attributes ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
